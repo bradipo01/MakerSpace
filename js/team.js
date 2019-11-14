@@ -1,137 +1,32 @@
 const team = [
     {
-        name: "Francesco Coppola",
+        name: "Nicolas Bravi",
         role: "Developer and student",
-        bio: "Studente del secondo anno di Computer Science all'università di Camerino",
-        img: "img/team/Francesco.jpg",
+        bio: "Studente del secondo quinto anno (fulminato) presso IIS MERLONI",
+        img: "img/team/nicolas.png",
         social: {
-            twitter: "https://twitter.com/francescocops",
-            github: "https://github.com/Azzeccagarbugli",
-            linkedin: "https://www.linkedin.com/in/francesco-coppola-98198814a/",
+            
         }
     },
     {
-        name: "Valerio Mariani",
+        name: "Simone Vivoli",
         role: "Developer and student",
-        bio: "Studente del secondo anno di Computer Science all'università di Pisa",
-        img: "img/team/Valerio.jpg",
+        bio: "Studente del quinto anno presso IIS MERLONI",
+        img: "img/team/vivoli.jfif",
         social: {
-            twitter: "https://www.facebook.com/vmariani3",
-            github: "https://github.com/sd3ntato",
-            linkedin: "https://www.linkedin.com/in/valerio-mariani-31b9ba13a/",
+            
         }
     },
     {
-        name: "Chiara Colciago",
+        name: "Mercurelli Giacomo",
         role: "Maker and student",
-        bio: "Studentessa al quarto anno del Liceo Internazionale in Svezia",
-        img: "img/team/Chiara.jpg",
+        bio: "Studente del quinto anno presso IIS MERLONI",
+        img: "img/team/giacomo.jpg",
         social: {
-            twitter: null,
-            github: null,
-            linkedin: null,
+            
         }
     },
-    {
-        name: "Antonio Strippoli",
-        role: "Developer and student",
-        bio: "Studente del secondo anno di Computer Science all'università di Perugia",
-        img: "img/team/Antonio.jpg",
-        social: {
-            twitter: null,
-            github: "https://github.com/Astromyen",
-            linkedin: null,
-        }
-    },
-    {
-        name: "Beatrice Rapaccini",
-        role: "Teacher",
-        bio: "Co-Fondatrice del gruppo Maker Space nella Bibloteca Multimediale di Fabriano",
-        img: "img/team/Beatrice.png",
-        social: {
-            twitter: "https://twitter.com/tormiento",
-            github: null,
-            linkedin: "https://www.linkedin.com/in/rapaccini/",
-        }
-    },
-    {
-        name: "Luca Colciago",
-        role: "EQR Development Manager",
-        bio: "Co-Fondatore del Maker Space nella Bibloteca Multimediale di Fabriano",
-        img: "img/team/LucaC.jpg",
-        social: {
-            twitter: "https://twitter.com/dottork",
-            github: "https://github.com/dottorK",
-            linkedin: "https://www.linkedin.com/in/lucacolciago/",
-        }
-    },
-    {
-        name: "Giorgio Paoletti",
-        role: "Developer and student",
-        bio: "Studente del quinto anno di Informatica all'ITIS di Fabriano con una passione per il mondo dell'arti digitali e per il mondo videoludico",
-        img: "img/team/Giorgio.jpg",
-        social: {
-            twitter: null,
-            github: "https://github.com/GiorgioPaoletti",
-            linkedin: null,
-        }
-    },
-    {
-        name: "Luca Ferroni",
-        role: "Open man",
-        bio: "Analista software specializzato nel settore Network con Linux nel cuore e Co-Fondatore del Maker Space nella Bibloteca Multimediale di Fabriano",
-        img: "img/team/LucaF.jpg",
-        social: {
-            twitter: "https://twitter.com/ferodafabriano",
-            github: "https://github.com/feroda",
-            linkedin: "https://www.linkedin.com/in/lucaferroni/",
-        }
-    },
-    {
-        name: "Dawid Weglarz",
-        role: "Developer and student",
-        bio: "Studente del terzo anno di Computer Science all'università di Urbino e presidente del Maker Space nella Bibloteca Multimediale di Fabriano",
-        img: "img/team/Dawid.jpg",
-        social: {
-            twitter: null,
-            github: "https://github.com/Radeox",
-            linkedin: "https://www.linkedin.com/in/dawid-w%C4%99glarz-199574100/",
-        }
-    },
-
-    {
-        name: "Lorenzo Farinelli",
-        role: "Developer and student",
-        bio: "Studente del terzo anno di Ingegneria Informatica al Politecnico di Milano",
-        img: "img/team/Lorenzo.jpg",
-        social: {
-            twitter: "https://twitter.com/fari_nelli",
-            github: "https://github.com/lorenzofar",
-            linkedin: "https://www.linkedin.com/in/lorenzofarinelli/",
-        }
-    },
-    {
-        name: "Riccardo Luzi",
-        role: "Developer and student",
-        bio: "Studente del quinto anno di Liceo Scientifico 'Vito Volterra' a Fabriano",
-        img: "img/team/RiccardoLuz.jpg",
-        social: {
-            twitter: null,
-            github: null,
-            linkedin: null,
-        }
-    },
-    {
-        name: "Riccardo Lucarini",
-        role: "Musician and student",
-        bio: "Studente del quarto anno di Liceo Scientifico 'Vito Volterra' a Fabriano",
-        img: "img/team/RiccardoLuca.jpg",
-        social: {
-            twitter: null,
-            github: null,
-            linkedin: null,
-        }
-    },
+    
 ]
 
 $("#team").ready(buildTeam);
